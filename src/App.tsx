@@ -6,12 +6,11 @@ import AuthCheck from "./core/router/components/AuthCheck";
 
 const App = () => {
   return (
-    // <Provider store={store}>
-    //   <AuthCheck>
-    //     <RouterProvider router={router} />
-    //   </AuthCheck>
-    // </Provider>
-    <div>app</div>
+    <Provider store={store}>
+      <AuthCheck>
+        <RouterProvider router={router} />
+      </AuthCheck>
+    </Provider>
   );
 };
 
