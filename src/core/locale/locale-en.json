@@ -1,0 +1,47 @@
+{
+  "login": {
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up",
+    "rememberMe": "Remember Me",
+    "emailIsRequired": "Email is required",
+    "invalidEmailAddress": "Please enter a valid email address",
+    "passwordIsRequired": "The passowrd field cannot be empty"
+  },
+  "register": {
+    "signUp": "Sign up",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "password": "Password",
+    "retypePassword": "Re-type password",
+    "individualAccount": "Individual Account",
+    "companyAccount": "Company Account",
+    "firstNameIsRequired": "First Name Is Required",
+    "lastNameIsRequired": "Last Name Is Required",
+    "emailIsRequired": "Email is required",
+    "invalidEmailAddress": "Please enter a valid email address",
+    "passwordIsRequired": "The passowrd field cannot be empty",
+    "passwordMinLength": "The password must be at least 8 characters.",
+    "passwordRequiredPattern": "The password must contain at least 1 uppercase letter and 1 number.",
+    "passwordsNotMatching": "The passwords do not match",
+    "noAccountType": "Please select account type"
+  },
+  "forgotPassword": {
+    "forgotPassword": "Forgot password"
+  },
+  "navigation": {
+    "assessments": "Assessments",
+    "feed": "Feed",
+    "jobs": "Jobs",
+    "profile": "Profile",
+    "settings": "Settings",
+    "signOut": "Sign Out",
+    "openMainMenu": "Open main menu",
+    "openUserMenu": "Open user menu",
+    "viewNotifications": "View notifications"
+  }
+}
