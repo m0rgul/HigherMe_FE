@@ -1,15 +1,16 @@
-import { Provider } from "react-redux";
 import { RouterProvider } from "react-router-dom";
-import store from "./core/store";
-import router from "./core/router";
-import AuthCheck from "./core/router/components/AuthCheck";
+import { Provider } from "react-redux";
+
+import router from "./router";
+import store from "./store";
+import SessionCheck from "components/SessionCheck";
 
 const App = () => {
   return (
     <Provider store={store}>
-      <AuthCheck>
-        <RouterProvider router={router} />
-      </AuthCheck>
+      <SessionCheck>
+        <RouterProvider router={router} />;
+      </SessionCheck>
     </Provider>
   );
 };

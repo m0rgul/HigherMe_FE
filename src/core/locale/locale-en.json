@@ -1,5 +1,7 @@
 {
   "login": {
+    "welcome": "Welcome to HigherMe!",
+    "subtitle": "Unlock potential. Build teams. Shape the future.",
     "email": "Email",
     "password": "Password",
     "signIn": "Sign in",
@@ -35,13 +37,15 @@
   },
   "navigation": {
     "assessments": "Assessments",
-    "feed": "Feed",
+    "home": "Home",
     "jobs": "Jobs",
+    "teams": "Teams",
     "profile": "Profile",
     "settings": "Settings",
     "signOut": "Sign Out",
     "openMainMenu": "Open main menu",
     "openUserMenu": "Open user menu",
-    "viewNotifications": "View notifications"
+    "viewNotifications": "View notifications",
+    "searchBarPlaceholder": "Search for anything"
   }
 }

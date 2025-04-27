@@ -2,9 +2,6 @@ import axios, { ResponseType } from "axios";
 import humps from "humps";
 import { isPlainObject, isArray } from "lodash-es";
 
-import store from "../store";
-import { userActions } from "../store/user";
-
 const baseURL = import.meta.env.VITE_API_URL;
 
 const transformResponse = (data: any): any =>
@@ -31,7 +28,7 @@ HTTP.interceptors.response.use(
   (response) => response,
   (error) => {
     if (error.response?.status === 403) {
-      store.dispatch(userActions.setIsAuthenticated(false));
+      // store.dispatch(userActions.setIsAuthenticated(false));
     }
 
     return Promise.reject(error);

@@ -12,6 +12,9 @@ export default {
           "50%": { transform: "translateX(150%)" },
         },
       },
+      transitionProperty: {
+        "max-height": "max-height",
+      },
     },
   },
   plugins: [],
